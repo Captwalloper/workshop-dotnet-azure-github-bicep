@@ -10,5 +10,6 @@ module appService './appservice.bicep' = {
   params: {
     appName: 'workshop-dnazghbicep-${githubUsername}-${environment}'
     location: 'centralus'
+    environment: environment
   }
 }
